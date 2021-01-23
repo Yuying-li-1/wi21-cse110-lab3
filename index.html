@@ -92,11 +92,11 @@ li {
 } 
     
 <nav class="crumbs">
-      <li><a href = "https://www.google.com/">This</a></li>
-      <li><a href = "https://www.google.com/">is</a></li>
-      <li><a href = "https://www.google.com/">a</a></li>
-      <li><a href = "https://www.google.com/">meaningless</a></li>
-      <li><a href = "https://www.google.com/">nav</a></li>
+      <li><a href = "https://www.google.com/">This</a></li> |
+      <li><a href = "https://www.google.com/">is</a></li> |
+      <li><a href = "https://www.google.com/">a</a></li> |
+      <li><a href = "https://www.google.com/">meaningless</a></li> |
+      <li><a href = "https://www.google.com/">nav</a></li> |
      
 </nav>
     
@@ -156,6 +156,29 @@ li {
      src="https://www.rd.com/wp-content/uploads/2020/07/34_When-you-want-to-get-in-shape-Final.jpg">
 </div>
  <br>
+    
+  <style>
+:root {
+  --minW: 200px;
+  --maxW: 500px; 
+}
+div.ex1 {
+  min-width: var(--minW);
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width: var(--maxW);
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+    
+ <div class="ex1">using min width.</div>
+<br>
+
+<div class="ex2">using max width;</div>
+    </style>
 
 <p><strong>This is how does strong elemnt look like.</strong></p>
 <p><em>Try to emphasize something.</em></p>
