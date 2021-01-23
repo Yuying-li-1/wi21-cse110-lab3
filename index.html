@@ -3,7 +3,7 @@
   <head>
     <style>
 .container {
-color:white;
+color:black;
 background:SlateBlue; 
   display: grid;
   grid-template-columns: 100px 20px 100px;
@@ -23,6 +23,11 @@ background:SlateBlue;
 }
 @media all {
   .aside { flex: 1 auto; }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
 }
       #sel
       {
