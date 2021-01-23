@@ -22,7 +22,7 @@ flex: 1 100%;
 }
 @media screen and (max-width: 1480px) {
 body {
-  background-color: lightgreen;
+  font-size: 12vw;
 }
 }
 #sel
