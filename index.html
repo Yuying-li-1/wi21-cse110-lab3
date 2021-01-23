@@ -2,7 +2,22 @@
 <html>
   <head>
     <style>
-      /* This is a comment */
+      .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+      #sel
+      {
+        background-color:yellow;
+      }
+      *
+{
+background-color:Ivory;
+}
     </style>
     <title>CSE110_lab2_html</title>    
     <link href="www.google.com" rel="next" media="print">
@@ -92,14 +107,18 @@ li {
 } 
     
 <nav class="crumbs">
-      <li><a href = "https://www.google.com/">This</a></li> |
-      <li><a href = "https://www.google.com/">is</a></li> |
-      <li><a href = "https://www.google.com/">a</a></li> |
-      <li><a href = "https://www.google.com/">meaningless</a></li> |
-      <li><a href = "https://www.google.com/">nav</a></li> |
+      <a href = "https://www.google.com/">This</a> |
+      <a href = "https://www.google.com/">is</a> |
+      <a href = "https://www.google.com/">a</a> |
+      <a href = "https://www.google.com/">meaningless</a> |
+      <a href = "https://www.google.com/">nav</a> |
      
 </nav>
 
+<ul>
+  <li><a href="https://www.google.com/" target="_blank">喵</a></li>
+     
+</ul>
      
 <style>
 a:hover {
@@ -110,7 +129,7 @@ a:active {
   color: yellow;
 } 
 </style>
-<p>using Pseudo-class: <a href="https://www.google.com/">click</a></p>
+<p id = "sel">using Pseudo-class: <a href="https://www.google.com/">click</a></p>
     
     <p>You don't need a parachute to go skydiving.</p>
     <hr>
@@ -307,5 +326,11 @@ meow
 </svg>
 
 <p>My cat have <span style="color:blue;font-weight:bold">blue</span> eyes.</p>
+    
+<div class="wrapper">
+  <aside class="aside aside-1">I am thin</aside>
+  <aside class="aside aside-2">I am in flatbox</aside>
+  <aside class="aside aside-3">I am faaaaaaaaaaaaaaaaaaaaaaaat</aside>
+</div>
 </body>
 </html>
