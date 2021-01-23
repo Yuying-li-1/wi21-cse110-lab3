@@ -157,7 +157,7 @@ li {
 </div>
  <br>
     
-  <style>
+ <style>
 :root {
   --minW: 200px;
   --maxW: 500px; 
@@ -165,20 +165,23 @@ li {
 div.ex1 {
   min-width: var(--minW);
   margin: auto;
+  position: relative;
+  left: 50px;
   border: 3px solid #73AD21;
 }
 
 div.ex2 {
   max-width: var(--maxW);
   margin: auto;
+  position: static;
   border: 3px solid #73AD21;
 }
+    </style>
     
  <div class="ex1">using min width.</div>
 <br>
 
 <div class="ex2">using max width;</div>
-    </style>
 
 <p><strong>This is how does strong elemnt look like.</strong></p>
 <p><em>Try to emphasize something.</em></p>
