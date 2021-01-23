@@ -20,7 +20,7 @@ flex: 1 100%;
 @media all {
 .aside { flex: 1 auto; }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1500px) {
 body {
   background-color: lightgreen;
 }
@@ -31,7 +31,7 @@ body {
 }
 *
 {
-background-color:Ivory;
+/*background-color:Ivory;*/
 }
 h1 {
   font-size: 10vw;
