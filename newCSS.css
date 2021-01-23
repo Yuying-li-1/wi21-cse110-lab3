@@ -20,7 +20,7 @@ flex: 1 100%;
 @media all {
 .aside { flex: 1 auto; }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 1480px) {
 body {
   background-color: lightgreen;
 }
